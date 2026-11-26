@@ -20,6 +20,21 @@ dengan tiga perubahan:
 Halaman konfigurasi tetap ada: buka `https://<nama>.workers.dev/<uuid>`
 untuk melihat link `vless://`.
 
+## Halaman konfigurasi
+
+Buka `https://<nama>.workers.dev/<uuid>` untuk melihat halaman konfigurasi
+(bahasa Indonesia, tanpa dependensi eksternal):
+
+- **Link VLESS (httpupgrade)** — port 80 tanpa TLS dan port 443 dengan TLS,
+  masing-masing dengan tombol **Salin link**.
+- **Pengaturan TaptapBox** — tabel address/port/network/host/path/TLS/Payload
+  yang sesuai dengan entry di atas.
+- **Subscription** — `https://<nama>.workers.dev/<uuid>/sub` mengembalikan
+  kedua link di atas sebagai teks polos (untuk diimpor sebagai subscription).
+
+Halaman ini menggantikan halaman konfigurasi yonggekkk (yang berbahasa
+Mandarin dan link-nya masih WS biasa, bukan httpupgrade).
+
 ## Deploy (Cloudflare dashboard)
 
 1. Buka [Cloudflare dashboard](https://dash.cloudflare.com/) →
